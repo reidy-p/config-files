@@ -1,0 +1,11 @@
+call pathogen#infect()
+set nocompatible
+syntax on
+let g:solarized_termcolors=256
+set t_Co=256
+set background=dark
+colorscheme solarized
+set number
+set nowrap
+set incsearch
+set ruler
