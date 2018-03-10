@@ -21,3 +21,7 @@ nnoremap JJJJ <Nop>
 "Color scheme (also need to set terminal colours manually)
 set background=dark
 colorscheme solarized
+
+"Show file name at the bottom
+set laststatus=2
+set statusline=%f
