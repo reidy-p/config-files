@@ -1,4 +1,4 @@
-call pathogen#infect()
+execute pathogen#infect()
 set nocompatible
 syntax enable 
 
@@ -8,8 +8,9 @@ set number
 "Don't wrap long lines
 set nowrap
 
-"Show incremental search results
+"Show and highlight incremental search results
 set incsearch
+set hlsearch
 
 "Show cursor position at all times
 set ruler
@@ -30,3 +31,6 @@ set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+
+"Show matching bracket or brace
+set showmatch
